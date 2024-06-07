@@ -1,3 +1,151 @@
-header{
-    margin: 35px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-nombre {
+    font-size: 24px;
+}
+
+.logo-nombre .punto-nombre {
+    color: rgb(255, 106, 0);
+}
+
+header {
+    background: white;
+    padding: 1rem 2rem; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.logo-nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.links-nav {
+    list-style: none;
+    display: flex;
+}
+
+.links-nav li {
+    margin-left: 1,5rem;
+}
+
+.boton-chat {
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    background: none;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: white;
+}
+
+section {
+    max-width: 1200px;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 4px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.introduccion {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto-introduccion {
+    flex: 1;
+    padding: 1rem;
+}
+
+.texto-introduccion h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.texto-introduccion h1 span {
+    color: #ff6347;
+}
+
+.disenio {
+    background: #6200ea;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.boton-contrato {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.boton-sabermas {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.boton-contrato:hover, .boton-sabermas:hover {
+    background: red;
+}
+
+.imagen-perfil {
+    flex: 1;
+    padding: 1rem;
+    position: relative;
+}
+
+.imagen-perfil img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.botones-diseño {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.botones-diseño img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
 }
