@@ -9,27 +9,34 @@
 </head>
 <body>
     <header>
-        <navbar>
-            <div class="logo-nombre">Jeremias<span class="punto-nombre">.</span></div>
+        <nav class="navbar">
+            <div class="logo-nombre">Jeremias<span>.</span></div>
             <div class="links-nav">
-                <a href="#">Home</a>
-                <a href="#">Works</a>
-                <a href="#">About me</a>
-                <a href="https://github.com/jeremiasescudero/portfolio_jeremiasEscudero">Projects</a>
-                <a href="#">Services</a>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Works 
+                    <svg class="flecha-abajo" width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 2.5 L5 7.5 L10 2.5" fill="none" stroke="red" stroke-width="1"/>
+                    </svg>
+                    </a>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="https://github.com/jeremiasescudero/portfolio_jeremiasEscudero">Projects</a></li>
+                <li><a href="#">Services</a></li>
             </div>
-            <button class="boton-chat">Chat</button>
-        </navbar>
+            <button class="boton-chat">Let's Chat</button>
+        </nav>
     </header>
     <main>
         <section class="introduccion">
             <div class="texto-introduccion"> 
+                <div class="nombre-present"></div>
                 <h1>Hi! I Am<span class="disenio">UI/UX</span><br>
                     Jeremias Escudero</h1>
                 <p>Designing user interfaces for over <strong>7 years </strong> <br>as a product designer</p>
                 <div class="botones">
                     <button class="boton-contrato">Hire Me</button>
-                    <a href="!" class="link-proyecto">Projects</a>
+                    <a href="!" class="link-proyecto">Projects <span class="flecha-proyectos">&#8599;</span></a>
                 </div>
                 <div class="img-newproject">
                     <img src="img/logo new.png" alt="logo-newproject">
@@ -39,23 +46,12 @@
                     <p>Clients on work worldwide</p>
                 </div>
                 <div class="proyectos-completados">
-                    <strong>572</strong>
-                    <p>Projects done</p>
+                    <p class="numero-proyectos">572</p> 
+                    <p>Projects done</p> 
+                    <p class="espacio-contacto">Contact</p>
+                    <a class="link-mail" href="mailto:jeremiasescudero67@gmail.com">jeremiasescudero67@gmail.com</a>
                 </div>
-            </div>
-            <div class="imagen-perfil">
-                <img src="img/Foto port.jpeg" alt="Jeremias Escudero">
-                <div class="botones-diseño">
-                    <img src="img/icono figma.webp" alt="logo-figma">
-                    <img src="img/sketch logo.png" alt="logo-sketch">
-                    <img src="img/xd logo.jpg" alt="logo-xd">
-                </div>
-            </div>
-            <section class="contacto">
-                <p>Contact</p>
-                <a href="mailto:jeremiasescudero67@gmail.com">jeremiasescudero67@gmail.com</a>
-            </section>
-            <section class="estadistica-proyectos">
+                <div class="estadistica-proyectos">
                 <p>Project statistics 2024</p>
                 <ul>
                     <li>Web Design: <strong>75</strong></li>
@@ -63,7 +59,30 @@
                     <li>Brand Identity: <strong>37</strong></li>
                 </ul>
                 <button class="boton-sabermas">Know More</button>
-            </section>
+            </div>
+            </div>
+            <div class="imagen-perfil">
+                <div class="div-foto-propia">
+                    <img src="img/Foto-propia.jpeg" alt="Jeremias Escudero">
+                    <div class="texto-sobrefoto">
+                        Create your Site in <strong>Figma</strong> <br>
+                        <strong>Sketch</strong> or <strong>XD</strong>
+                    </div>
+                </div>
+                    <div class="icono" id="logofigma">
+                        <img src="img/logo-figma.png">
+                    </div>
+                    <div class="icono" id="logosketch">
+                        <img src="img/sketch logo.png">
+                    </div>
+                    <div class="icono" id="logoxd">
+                    <img src="img/logo-xd.png">
+                </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
         </section>
 
     </main>
