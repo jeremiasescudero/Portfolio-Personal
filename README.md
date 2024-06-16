@@ -1,7 +1,7 @@
 # portfolio_jeremiasEscudero
 
 Hola a todo aquél que se encuentre leyendo esta descripción.
-Para realizar este pequeño proyecto me base en un portfolio muy atractivo que encontre en internet, en la página behance. Se utilizó HTML y CSS.
+Para realizar este pequeño proyecto me base en un portfolio muy atractivo que encontre en internet, en la página dribbble. Se utilizó HTML y CSS.
 
 El proyecto contiene una barra de navegación que trae en sí una serie de apartados como Home, Works, About, Projects y Services.
 
