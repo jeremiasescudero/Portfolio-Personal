@@ -441,8 +441,8 @@ h1 {
 /* Media Queries */
 @media (max-width: 1024px) {
     .links-nav {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .introduccion {
         width: 100%;
