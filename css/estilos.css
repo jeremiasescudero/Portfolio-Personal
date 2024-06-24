@@ -439,6 +439,14 @@ h1 {
 }
 
 /* Media Queries */
+@media (max-width: 1440px) {
+    /* Estilos adicionales para pantallas hasta 1440px de ancho */
+}
+
+@media (max-width: 1280px) {
+    /* Estilos adicionales para pantallas hasta 1280px de ancho */
+}
+
 @media (max-width: 1024px) {
     .links-nav {
         padding-left: 5%;
@@ -517,8 +525,3 @@ h1 {
         left: 20%;
     }
 }
-
-
-
-
-
