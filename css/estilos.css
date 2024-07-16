@@ -360,6 +360,7 @@ h1 {
 
 .div-foto-propia {
     flex: 1;
+    display: inline-block;
     position: relative;
     width: fit-content;
     height: fit-content;
@@ -399,6 +400,7 @@ h1 {
 }
 
 #logofigma {
+    position: absolute;
     width: 55px;
     height: 55px;
     bottom: 37%;
